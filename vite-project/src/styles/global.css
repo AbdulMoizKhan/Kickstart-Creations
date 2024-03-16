@@ -1,0 +1,44 @@
+.herobtn {
+    background-color: #3D63EA;
+    color: white;
+    padding: 10px 30px;
+    max-width: 201px;
+}
+
+
+.swiper-wrapper{
+    height: 350px  !important;
+}
+
+.swiper-slide-active{
+    margin-top: 20px !important;
+}
+
+.swiper-slide-active .cards{
+    border: 1px #F76680 solid;
+}
+
+.swiper-slide-active .cards .cardhead{
+    color: #F76680 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%) !important;
+}
+.swiper-pagination-bullet{
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.elipse1{
+    position: relative;
+    left: 40vw;
+    bottom: 27px;
+    z-index: -1;
+}
+.elipse2{
+    position: relative;
+    left: 20vw;
+    bottom: -5px;
+    z-index: -1;
+}
