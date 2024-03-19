@@ -3,7 +3,7 @@ import Homehero from "../../components/herosections/homehero"
 import { Carousal } from "../../components/carousal/landingcarousal"
 import HeroWrapper from "../../assets/Hero-Wrapper__image.png"
 import about from "../../assets/Abou-us-Video.png"
-import ImageText from "../../components/image_text"
+import { ImageText } from "../../components/image_text"
 
 export const Home = () => {
   return (
