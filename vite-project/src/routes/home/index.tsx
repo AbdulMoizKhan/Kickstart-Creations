@@ -3,7 +3,8 @@ import Homehero from "../../components/herosections/homehero"
 import { Carousal } from "../../components/carousal/landingcarousal"
 import HeroWrapper from "../../assets/Hero-Wrapper__image.png"
 import about from "../../assets/Abou-us-Video.png"
-import { ImageText } from "../../components/image_text"
+import { ImageComponent } from "../../components/image_text"
+import BoxWrapper from "../../components/box"
 
 export const Home = () => {
   return (
@@ -28,12 +29,13 @@ export const Home = () => {
         topLineBoolean={true}
       />
       <Divider sx={{ borderColor: '#fff', margin: '40px 0px' }}></Divider>
+      <div style={{background: "rgb(249, 249, 255)"}}>
       <Typography variant="h3" align="center" sx={{paddingBottom:'20px'}}>Way of building <br />Great Software</Typography>
-      <ImageText
-      headTitle={"Build the right team to scale"}
-      description1={"Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers"}
-      subDescription1={"Our delivery model helps you cut costs and deliver within budget."}
-      />
+      <ImageComponent/>
+      </div>
+      <Divider sx={{ borderColor: '#fff', margin: '40px 0px' }}></Divider>
+      <BoxWrapper/>
+      <Divider sx={{ borderColor: '#fff', margin: '40px 0px' }}></Divider>
     </>
   )
 }

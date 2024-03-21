@@ -1,11 +1,8 @@
-import { Link } from 'react-router-dom'
 import {
   Box,
-  ListItem,
   Stack,
   SxProps,
   Drawer,
-  List,
   IconButton,
   Container,
   Button,
@@ -63,12 +60,12 @@ const drawerBtn: SxProps = {
 //     "&:hover": { color: "error.main" },
 //   };
 // };
-const drawerItems: SxProps = {
-  borderBottom: "1px solid #4b4040",
-  padding: "15px 20px",
-  display: "block",
-  textAlign: "center",
-};
+// const drawerItems: SxProps = {
+//   borderBottom: "1px solid #4b4040",
+//   padding: "15px 20px",
+//   display: "block",
+//   textAlign: "center",
+// };
 
 export const Header = () => {
   // const router = useRouter();
