@@ -1,4 +1,4 @@
-import { Divider, Typography } from "@mui/material"
+import { Divider } from "@mui/material"
 import Homehero from "../../components/herosections/homehero"
 import { Carousal } from "../../components/carousal/landingcarousal"
 import HeroWrapper from "../../assets/Hero-Wrapper__image.png"
@@ -29,13 +29,10 @@ export const Home = () => {
         topLineBoolean={true}
       />
       <Divider sx={{ borderColor: '#fff', margin: '40px 0px' }}></Divider>
-      <div style={{background: "rgb(249, 249, 255)"}}>
-      <Typography variant="h3" align="center" sx={{paddingBottom:'20px'}}>Way of building <br />Great Software</Typography>
       <ImageComponent/>
-      </div>
       <Divider sx={{ borderColor: '#fff', margin: '40px 0px' }}></Divider>
       <BoxWrapper/>
-      <Divider sx={{ borderColor: '#fff', margin: '40px 0px' }}></Divider>
+      <Divider sx={{ borderColor: '#fff', margin: '60px 0px' }}></Divider>
     </>
   )
 }

@@ -9,7 +9,7 @@ import slider2 from '../../../assets/slider2.png'
 import slider3 from '../../../assets/slider3.png'
 import Ellipse1 from '../../../assets/Ellipse1.png'
 import Ellipse2 from '../../../assets/Ellipse2.png'
-
+import { BsCloudFog2Fill } from "react-icons/bs";
 
 const sliderArr = [
   {
@@ -40,7 +40,11 @@ const sliderArr = [
   {
     title: "Cloud Computing Services",
     description: "Unlock the full potential of the cloud with our tailored solutions. From migration to optimization, we'll help you leverage cloud technologies to streamline your operations and scale your business.",
-    imageUrl: slider3,
+    imgLogo: <BsCloudFog2Fill      style={{
+      color: '#7082ff',
+      height: '34px',
+      width: '34px'
+    }}/>,
   },
   {
     title: "E-commerce Development",
@@ -57,7 +61,7 @@ const sliderArr = [
 
 export const Carousal = () => {
   return (
-    <div style={{ backgroundColor: '#F9F9FF', height: '500px' }}>
+    <div style={{ backgroundColor: '#F9F9FF', height: '500px' ,cursor :'pointer'}}>
       <img src={Ellipse1} alt="" className="elipse1"/>
       <Box sx={{paddingTop:'20px', position:'relative', top:'-60px'}} >
       <Typography align="center" variant="h4" sx={{fontWeight: '700' , paddingBottom:'30px'}}>Services we offer</Typography>
@@ -76,8 +80,9 @@ export const Carousal = () => {
               <CardsService
                 key={index}
                 imgSource={slider.imageUrl}
-                cardTittle={slider.title}
+                cardTitle={slider.title}
                 cardDescription={slider.description}
+                imgLogo={slider.imgLogo}
               />
             </SwiperSlide>
           ))}

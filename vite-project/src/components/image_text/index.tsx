@@ -32,7 +32,8 @@ const ImageText = ({ headTitle, description1, subDescription1, imageUrl, directi
 
 const ImageComponent = () => {
   return (
-    <>
+    <Box sx={{background:"rgb(249, 249, 255)", paddingBottom:"40px"}}>
+      <Typography variant="h3" align="center" sx={{padding:'40px 0px 20px 0px'}}>Way of building <br />Great Software</Typography>
       {content?.map((imageText, index) => {
         const direction = index % 2 === 0 ? "row" : "row-reverse";
         return (
@@ -46,7 +47,7 @@ const ImageComponent = () => {
           />
         );
       })}
-    </>
+    </Box>
   );
 };
 
