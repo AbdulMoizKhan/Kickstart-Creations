@@ -54,18 +54,18 @@ const drawerBtn: SxProps = {
     xs: "flex",
   },
 };
-// const closeBtn = (variant: string | null | undefined): SxProps => {
-//   return {
-//     color: variant === "light" ? "text.primary" : "text.secondary",
-//     "&:hover": { color: "error.main" },
-//   };
-// };
-// const drawerItems: SxProps = {
-//   borderBottom: "1px solid #4b4040",
-//   padding: "15px 20px",
-//   display: "block",
-//   textAlign: "center",
-// };
+const closeBtn = (variant: string | null | undefined): SxProps => {
+  return {
+    color: variant === "light" ? "text.primary" : "text.secondary",
+    "&:hover": { color: "error.main" },
+  };
+};
+const drawerItems: SxProps = {
+  borderBottom: "1px solid #4b4040",
+  padding: "15px 20px",
+  display: "block",
+  textAlign: "center",
+};
 
 export const Header = () => {
   // const router = useRouter();
@@ -85,7 +85,7 @@ export const Header = () => {
             alignItems={"center"}
             justifyContent={"space-between"}
           >
-            <img src={logo} alt="" height={90} />
+            <img src={logo} alt="" className="header_logo" />
             <Stack
               direction={"row"}
               alignItems={"center"}
@@ -126,7 +126,7 @@ export const Header = () => {
             <Drawer
               PaperProps={{
                 sx: {
-                  backgroundColor: "black",
+                  backgroundColor: "white",
                   width: "100%",
                 },
               }}

@@ -6,7 +6,7 @@ const button: SxProps = {
     borderRadius: '5px',
     border: '1px white solid',
     color: '#FAFAFA',
-    fontSize: '18px',
+    // fontSize: '18px',
     fontWeight: '700',
     padding: '14px 25px'
 }
@@ -17,20 +17,23 @@ const Wrapper: SxProps = {
 }
 const gridWrapper: SxProps = {
     padding: '15px 30px',
+    px: {xs:0},
+    pr:{xs:'29px'},
     rowGap: '20px',
 }
 
 const typo: SxProps = {
     color: '#29272E',
-    fontSize: 35,
+    // fontSize: 35,
     fontWeight: 700,
     paddingLeft: '20px'
 }
 
-const btnimg : SxProps = {
+const btnimg: SxProps = {
     position: 'relative',
-    top: '-100px',
-    left:'50px'
+    top: {xs:'-80px', sm:'-100px' ,md:'-80px'},
+    left: {xs:'7px',sm:'30px',md:'50px',lg:'-30px'}
+
 }
 
 const BoxWrapper = () => {
@@ -39,14 +42,18 @@ const BoxWrapper = () => {
             <Container>
                 <Box sx={Wrapper}>
                     <Grid container sx={gridWrapper} alignItems={"center"}>
-                        <Grid item xs={8} sm={6} md={4} lg={8}>
-                            <Typography sx={typo}>
+                        <Grid item xs={6} sm={7} md={8} lg={8}>
+                            <Typography variant="h4" sx={typo}>
                                 Hire the best developers and designers around!
                             </Typography>
                         </Grid>
-                        <Grid item xs={8} sm={6} md={4} lg={4} sx={btnimg}>
-                            <img src={boxarrow} alt="" style={{ position: 'relative', bottom: '-134px', left: '70px' }} />
-                            <Button sx={button}>Hire Top Developers</Button>
+                        <Grid item xs={6} sm={5} md={4} lg={4} sx={btnimg}>
+                            <img src={boxarrow} alt=""  className="box_image"/>
+                            <Button sx={button}>
+                                <Typography variant="h6">
+                                    Hire Top Developers
+                                </Typography>
+                            </Button>
                         </Grid>
                     </Grid>
                 </Box>

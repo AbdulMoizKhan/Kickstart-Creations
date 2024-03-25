@@ -32,7 +32,7 @@ export const Home = () => {
       <ImageComponent/>
       <Divider sx={{ borderColor: '#fff', margin: '40px 0px' }}></Divider>
       <BoxWrapper/>
-      <Divider sx={{ borderColor: '#fff', margin: '60px 0px' }}></Divider>
+      <Divider sx={{ borderColor: '#fff', margin: '60px 0px' }}></Divider> 
     </>
   )
 }
