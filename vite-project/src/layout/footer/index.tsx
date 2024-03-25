@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   IconButton,
   Link,
   Stack,
@@ -10,10 +9,7 @@ import {
   Container,
   Divider,
 } from "@mui/material";
-import { BiLogoInstagramAlt } from "react-icons/bi";
-import { AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { RiFacebookFill } from "react-icons/ri";
-import { BsFacebook } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";

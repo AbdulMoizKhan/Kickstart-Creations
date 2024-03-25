@@ -45,7 +45,7 @@ const ImageText = ({ headTitle, description1, subDescription1, imageUrl, directi
 };
 
 const ImageComponent = () => {
-  const matches = useMediaQuery('(max-width:760px)');
+  // const matches = useMediaQuery('(max-width:760px)');
 
   return (
     <Box sx={{ background: "rgb(249, 249, 255)", paddingBottom: "40px" }}>
