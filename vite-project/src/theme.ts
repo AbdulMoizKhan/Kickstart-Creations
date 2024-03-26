@@ -1,5 +1,3 @@
-"use client";
-
 import { ThemeOptions, createTheme } from "@mui/material";
 
 export function responsiveFontSizes({
