@@ -2,12 +2,11 @@ import { createBrowserRouter } from 'react-router-dom';
 import { RouterProvider } from 'react-router';
 import { ThemeProvider } from '@mui/material';
 import { theme } from './theme.ts'; 
-
 import LandingPageLayout from './layout';
 import { Home } from './routes/home';
-import { AboutUs } from './routes/aboutus';
+// import { AboutUs } from './routes/aboutus';
 import './styles/global.css';
-import { Services } from './routes/services/index.tsx';
+// import { Services } from './routes/services/index.tsx';
 import PageNotFound from './routes/404page/index.tsx';
 
 const router = createBrowserRouter([
