@@ -83,10 +83,18 @@
     height: 160px;
     position: relative;
 }
+.imagetext_desc{
+    color: #F76680 !important;
+}
 .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
     color: black !important;
 }
-.css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover{
+/* .css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover{
+    background-color: black !important;
+    color: white !important;
+} */
+
+.footer-icons:hover{
     background-color: black !important;
     color: white !important;
 }
@@ -97,6 +105,7 @@
 .css-1cf2bii-MuiTypography-root-MuiLink-root{
     color:#57007b !important;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .footor_logo{

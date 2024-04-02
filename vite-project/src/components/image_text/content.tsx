@@ -1,4 +1,4 @@
-import imgtext1 from '../../assets/imgtext1.png';
+// import imgtext1 from '../../assets/imgtext1.png';
 import imgtext2 from '../../assets/imgtext2.png';
 import imgtext3 from '../../assets/imgtext3.png';
 
@@ -6,8 +6,8 @@ export const content = [
         {
             "headTitle": "Build the right team to scale",
             "description1": "Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers",
-            "subDescription1": "Our delivery model helps you cut costs and deliver within budget.",
-            "imageUrl": imgtext1
+            "subDescription1": `Our <span className="imagetext_desc">delivery model</span> helps you cut costs and deliver within budget.`,
+            "imageUrl": imgtext3
         },
         {
             "headTitle": "Crafting Exceptional Solutions",
