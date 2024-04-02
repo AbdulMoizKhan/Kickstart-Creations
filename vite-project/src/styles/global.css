@@ -93,6 +93,14 @@
     background-color: black !important;
     color: white !important;
 } */
+.herobtn:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.footer-icons{
+    background-color: white !important;
+    color: black !important;
+}
 
 .footer-icons:hover{
     background-color: black !important;

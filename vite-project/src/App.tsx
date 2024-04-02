@@ -7,6 +7,8 @@ import LandingPageLayout from './layout';
 import { Home } from './routes/home';
 import { AboutUs } from './routes/aboutus';
 import './styles/global.css';
+import { Services } from './routes/services/index.tsx';
+import PageNotFound from './routes/404page/index.tsx';
 
 const router = createBrowserRouter([
   {
@@ -17,9 +19,25 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />,
       },
+      // {
+      //   path: '/aboutus',
+      //   element: <AboutUs />,
+      // },
+      // {
+      //   path: '/services',
+      //   element: <Services />,
+      // },
+      // {
+      //   path: '/AboutUs',
+      //   element: <AboutUs />,
+      // },
+      // {
+      //   path: '/AboutUs',
+      //   element: <AboutUs />,
+      // },
       {
-        path: '/AboutUs',
-        element: <AboutUs />,
+        path: '*',
+        element: <PageNotFound />,
       },
     ],
   },

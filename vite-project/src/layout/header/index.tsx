@@ -12,13 +12,13 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import TextButton from '../../components/text-button';
 import logo from '../../assets/logo.png'
+import { Link } from "react-router-dom";
 
 const TextLinks = [
   { title: "Home", url: "/" },
-  { title: "About Us", url: "/AboutUs" },
+  { title: "About Us", url: "/aboutus" },
   { title: "Services", url: "/services" },
-  { title: "How It Works", url: "/how-it-works" },
-  { title: "Contact Us", url: "/contact-us" },
+  { title: "How It Works", url: "/how-it-works" }
 ];
 
 
@@ -85,7 +85,9 @@ export const Header = () => {
             alignItems={"center"}
             justifyContent={"space-between"}
           >
+            <Link to={'/'}>
             <img src={logo} alt="" className="header_logo" />
+            </Link>
             <Stack
               direction={"row"}
               alignItems={"center"}

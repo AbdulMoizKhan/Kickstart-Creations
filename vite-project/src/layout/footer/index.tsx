@@ -34,19 +34,19 @@ export const Footer = () => {
       icon: <RiFacebookFill  />,
       size: "40px",
       link:
-        "https://www.facebook.com/people/Doyen-Auto-Services/100089723090410/",
+        "https://www.facebook.com/",
     },
     {
       icon: <BsTwitterX  />,
       size: "40px",
       link:
-        "https://www.facebook.com/people/Doyen-Auto-Services/100089723090410/",
+        "https://www.facebook.com/",
     },
     {
       icon: <FaLinkedinIn  />,
       size: "40px",
       link:
-        "https://www.facebook.com/people/Doyen-Auto-Services/100089723090410/",
+        "https://www.linkedin.com/",
     },
   ];
 

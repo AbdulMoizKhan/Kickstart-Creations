@@ -14,10 +14,10 @@ const TextButton = ({
   hoverColor,
   redirectLink,
 }: Props): JSX.Element => {
-  const history = useNavigate();
+  const navigate = useNavigate();
   
   const handleClick = () => {
-    history(redirectLink); 
+    navigate(redirectLink); 
   };
 
   return (
