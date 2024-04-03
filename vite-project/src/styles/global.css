@@ -11,186 +11,211 @@
     padding: 10px 30px;
     max-width: 240px;
 }
-.swiper-wrapper{
-    height: 350px  !important;
+
+.swiper-wrapper {
+    height: 350px !important;
 }
-.swiper-slide{
+
+.swiper-slide {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.swiper-slide-active{
+
+.swiper-slide-active {
     margin-top: 20px !important;
 }
 
-.swiper-slide-active .cards{
+.swiper-slide-active .cards {
     border: 1px #F76680 solid;
 }
 
-.swiper-slide-active .cards .cardhead{
+.swiper-slide-active .cards .cardhead {
     color: #F76680 !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background: linear-gradient(225deg, #F76680 0%, #57007B 100%) !important;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     height: 15px !important;
     width: 15px !important;
 }
 
-.elipse1{
+.elipse1 {
     position: relative;
     left: 40vw;
     bottom: 27px;
     z-index: -1;
 }
-.elipse2{
+
+.elipse2 {
     position: relative;
     left: 20vw;
     bottom: -5px;
     z-index: -1;
 }
 
-.image-responsiveness{
+.image-responsiveness {
     width: auto;
 }
 
-.width40{
+.width40 {
     width: 40% !important;
 }
 
-.width60{
+.width60 {
     width: 60% !important;
 }
-.width100{
+
+.width100 {
     width: 100% !important;
 }
-.width50{
+
+.width50 {
     width: 50% !important;
 }
-.text-middle{
+
+.text-middle {
     text-align: center;
 }
-.box_image{
-    position: relative; 
-    bottom: -95px; 
-    left: 170px
+
+.box_image {
+    position: absolute;
 }
 
-.footor_logo{
+.footor_logo {
     width: 200px;
     height: 160px;
     position: relative;
 }
-.imagetext_desc{
+
+.imagetext_desc {
     color: #F76680 !important;
 }
-.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
     color: black !important;
 }
+
 /* .css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover{
     background-color: black !important;
     color: white !important;
 } */
-.herobtn:hover{
+.herobtn:hover {
     background-color: black !important;
     color: white !important;
 }
-.footer-icons{
+
+.footer-icons {
     background-color: white !important;
     color: black !important;
 }
 
-.footer-icons:hover{
+.footer-icons:hover {
     background-color: black !important;
     color: white !important;
 }
 
-.css-1fuvyt9-MuiButtonBase-root-MuiButton-root:hover{
+.css-1fuvyt9-MuiButtonBase-root-MuiButton-root:hover {
     background-color: black !important;
 }
-.css-1cf2bii-MuiTypography-root-MuiLink-root{
-    color:#57007b !important;
+
+.css-1cf2bii-MuiTypography-root-MuiLink-root {
+    color: #57007b !important;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .footor_logo{
+    .footor_logo {
         top: -40px;
     }
-    .box_image{
+
+    /* .box_image{
         position: relative; 
         bottom: -134px; 
         left: 30px !important;
-    }
-    .image-responsiveness{
+    } */
+    .image-responsiveness {
         height: 200px;
         object-fit: cover;
         width: 100%;
     }
-    .header_logo{
+
+    .header_logo {
         height: 55px;
     }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    .footor_logo{
+    .footor_logo {
         top: -20px;
     }
-    .image-responsiveness{
+
+    .image-responsiveness {
         height: 400px;
         object-fit: cover;
     }
-    .header_logo{
+
+    .header_logo {
         height: 70px;
     }
-    .box_image{
+
+    /* .box_image{
         position: relative; 
         bottom: -134px; 
         left: 50px !important;
-    }
+    } */
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    .footor_logo{
+    .footor_logo {
         top: -20px;
     }
-    .image-responsiveness{
+
+    .image-responsiveness {
         height: 500px;
         object-fit: cover;
     }
-    .header_logo{
+
+    .header_logo {
         height: 70px;
     }
 }
+
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    .footor_logo{
+    .footor_logo {
         top: -30px;
     }
-    .image-responsiveness{
+
+    .image-responsiveness {
         height: 410px;
     }
-    .header_logo{
+
+    .header_logo {
         height: 90px;
     }
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    .image-responsiveness{
-    
-    }
-    .header_logo{
+    .image-responsiveness {}
+
+    .header_logo {
         height: 90px;
     }
-    .box_image{
+
+    /* .box_image{
         position: relative; 
         bottom: -95px; 
         left: 170px !important;
-    }
+    } */
 }

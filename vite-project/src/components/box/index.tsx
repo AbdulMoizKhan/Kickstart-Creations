@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, SxProps, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Stack, SxProps, Typography } from "@mui/material";
 import boxarrow from '../../assets/Boxarrow.png';
 
 const button: SxProps = {
@@ -8,7 +8,9 @@ const button: SxProps = {
     color: '#FAFAFA',
     // fontSize: '18px',
     fontWeight: '700',
-    padding: '14px 25px'
+    padding: '14px 25px',
+    maxHeight:'60px'
+
 }
 
 const Wrapper: SxProps = {
@@ -20,6 +22,7 @@ const gridWrapper: SxProps = {
     px: {xs:0},
     pr:{xs:'29px'},
     rowGap: '20px',
+    height:'220px'
 }
 
 const typo: SxProps = {
@@ -30,9 +33,6 @@ const typo: SxProps = {
 }
 
 const btnimg: SxProps = {
-    position: 'relative',
-    top: {xs:'-80px', sm:'-100px' ,md:'-80px'},
-    left: {xs:'7px',sm:'30px',md:'50px',lg:'-30px'}
 
 }
 
@@ -48,12 +48,14 @@ const BoxWrapper = () => {
                             </Typography>
                         </Grid>
                         <Grid item xs={6} sm={5} md={4} lg={4} sx={btnimg}>
+                            <Stack direction={"row"} spacing={2} alignItems={'center'} justifyContent={'center'}>
                             <img src={boxarrow} alt=""  className="box_image"/>
                             <Button sx={button}>
                                 <Typography variant="h6">
                                     Hire Top Developers
                                 </Typography>
                             </Button>
+                            </Stack>
                         </Grid>
                     </Grid>
                 </Box>
